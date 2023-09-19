@@ -112,4 +112,22 @@ Function Prototype:
   * Prints the array each time the interval is decreased.
 
 * **5. Cocktail shaker sort**
-  
+  * [101-cocktail_sort_list.c](./101-cocktail_sort_list.c): C function that sorts
+  a `listint_t` doubly-linked list of integers in ascending order using the Cocktail Shaker Sort algorithm.
+  * Prints the list after each swap.
+  * [101-O](./101-O): Text file containing the best, average, and worst case time complexities of the Cocktail Shaker Sort algorithm, one per line.
+
+* **6. Counting sort**
+  * [102-counting_sort.c](./102-counting_sort.c): C function that sorts an array of integers in ascending order using the Counting Sort algorithm.
+  * Assumes that the array will only contain numbers `>= 0`.
+  * Prints the counting array after it has been initialized.
+  * [102-O](./102-O): Text file containing the best, average, and worst case time complexities of the Counting Sort algorithm, one per line.
+
+* **7. Merge sort**
+  * [103-merge_sort.c](./103-merge_sort.c): C function that sorts an array of integers in ascending order using the Merge Sort algorithm.
+  * Implements the `top-down` Merge Sort algorithm.
+    * When an array is divided, the size of the left subarray is always less than or equal to the size of the right subarray.
+    * Always sorts the left subarray before the right one.
+  * Prints subarrays each time they are merged.
+  * [103-O](./103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
+
