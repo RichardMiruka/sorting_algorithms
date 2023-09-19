@@ -68,3 +68,15 @@ typedef struct card_s
 	const kind_t kind;
 } card_t;
 typedef struct deck_node_s
+{
+	const card_t *card;
+	struct deck_node_s *prev;
+	struct deck_node_s *next;
+} deck_node_t;
+```
+
+Function Prototype:
+
+| File               | Prototype                             |
+| ------------------ | ------------------------------------- |
+| `1000-deck_node.c` | `void sort_deck(deck_node_t **deck);` |
