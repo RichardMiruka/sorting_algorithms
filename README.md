@@ -131,3 +131,20 @@ Function Prototype:
   * Prints subarrays each time they are merged.
   * [103-O](./103-O): Text file containing the best, average, and worst case time complexities of the Merge Sort algorithm, one per line.
 
+* **8. Heap sort**
+  * [104-heap_sort.c](./104-heap_sort.c): C function that sorts an array of integers in ascending order using the Heap Sort algorithm.
+  * Implements the `sift-down` Heap Sort algorithm.
+  * Prints the array after each swap.
+  * [104-O](./104-O): Text file containing the best, average, and worst case time complexiites of the Heap Sort algorithm, one per line.
+
+* **9. Radix sort**
+  * [105-radix_sort.c](./105-radix_sort.c): C function that sorts an array of integers in ascending order using the Radix Sort algorithm.
+  * Implements the Least-Significant-Digit (LSD) Radix Sort algorithm.
+  * Assumes that the array will only contain numbers `>= 0`.
+  * Prints the array for each significant digit increase.
+  * [105-O](./105-O): Text file containing the best, average, and worst case time complexities of the Radix Sort algorithm, one per line.
+
+* **10. Bitonic sort**
+  * [106-bitonic_sort.c](./106-bitonic_sort.c): C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
+  * Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
+  * Prints subarrays each time they are merged.
