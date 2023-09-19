@@ -80,3 +80,20 @@ Function Prototype:
 | File               | Prototype                             |
 | ------------------ | ------------------------------------- |
 | `1000-deck_node.c` | `void sort_deck(deck_node_t **deck);` |
+
+## Tasks :page_with_curl:
+
+* **0. Bubble sort**
+  * [0-bubble_sort.c](./0-bubble_sort.c): C function that sorts an array of integers in ascending order using the Bubble Sort algorithm.
+  * Prints the array after each swap.
+  * [0-O](./0-O): Text file containing the best, average, and worst case time complexities of the Bubble Sort algorithm, one per line.
+
+* **1. Insertion sort**
+  * [1-insertion_sort_list.c](./1-insertion_sort_list.c): C function that sorts a `listint_t` doubly-linked list of integers in ascending order using the
+  Insertion Sort algorithm.
+  * Prints the list after each swap.
+  * [1-O](./1-O): Text file containing the best, average, and worst case time complexities of the Insertion Sort algorithm, one per line.
+
+* **2. Selection sort**
+  * [2-selection_sort.c](./2-selection_sort.c): C function that sorts an array of integers in ascending order using the Selection Sort algorithm.
+  * Prints the array after each swap.
