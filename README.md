@@ -50,3 +50,21 @@ Function Prototypes:
 | `105-radix_sort.c`         | `void radix_sort(int *array, size_t size);`       |
 | `106-bitonic_sort.c`       | `void bitonic_sort(int *array, size_t size);`     |
 | `107-quick_sort_hoare.c`   | `void quick_sort_hoare(int *array, size_t size);` |
+
+* [deck.h](./deck.h): Header file containing definitions and prototypes for all types and functions written for the task `1000-sort_deck.c`.
+
+Data Structures:
+```
+typedef enum kind_e
+{
+	SPADE = 0,
+	HEART,
+	CLUB,
+	DIAMOND
+} kind_t;
+typedef struct card_s
+{
+	const char *value;
+	const kind_t kind;
+} card_t;
+typedef struct deck_node_s
