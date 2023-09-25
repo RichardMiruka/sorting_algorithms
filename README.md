@@ -148,7 +148,7 @@ Function Prototype:
   * [106-bitonic_sort.c](./106-bitonic_sort.c): C function that sorts an array of integers in ascending order using the Bitonic Sort algorithm.
   * Assumes that `size` is a power of 2 (ie. `size` can be expressed as `2^k` where `k >= 0`).
   * Prints subarrays each time they are merged.
- * [106-O](./106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
+  * [106-O](./106-O): Text file containing the best, average, and worst case time complexities of the Bitonic Sort algorithm, one per line.
 
 * **11. Quick Sort - Hoare Partition scheme**
   * [107-quick_sort_hoare.c](./107-quick_sort_hoare.c): C function that sorts an array of integers in ascending order using the Quick Sort algorithm.
